@@ -9,3 +9,7 @@ gym/f110_gym/unittest/centerline/
 docs/_build/
 *.mypy_cache/
 flycheck_*
+gym_env/lib/
+gym_env/bin/
+gym_env/include/
+gym_env/pyvenv.cfg
