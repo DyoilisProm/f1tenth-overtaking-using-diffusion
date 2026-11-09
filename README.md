@@ -1,3 +1,23 @@
+##HOW TO RUN
+#their quickstart may not be sufficient since we have already added tensorflow lib etc,
+#I recommend to do the following:
+
+# 1. Create and activate a blank environment
+python3 -m venv gym_env
+source gym_env/bin/activate
+
+# 2. Clone the custom repository 
+git clone https://github.com/DyoilisProm/f1tenth-overtaking-using-diffusion.git
+cd f1tenth-overtaking-using-diffusion
+
+# 3. Install the F1TENTH environment in editable mode
+pip install -e .
+
+# 4. Install the exact libraries used (requirements.txt was used via pip freeze)
+pip install -r requirements.txt
+
+
+##BBELOW HERE IS THE OFFICIAL README OF F1TENTH, SO WE DO NOT TOUCH
 ![Python 3.8 3.9](https://github.com/f1tenth/f1tenth_gym/actions/workflows/ci.yml/badge.svg)
 ![Docker](https://github.com/f1tenth/f1tenth_gym/actions/workflows/docker.yml/badge.svg)
 # The F1TENTH Gym environment
